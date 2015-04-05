@@ -5,3 +5,11 @@ html {
 *,*::before, *::after {
   box-sizing: inherit;
 }
+.masthead {
+  background-image: url("../images/beetle.svg"), url("../images/beetle.svg"), url("../images/waves.png");
+  padding-top: 2em;
+  background-size: 60px auto, 60px auto;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: left, right;
+  text-align: center;
+  font-size: 2em;
