@@ -8,9 +8,11 @@ html {
 }
 .masthead {
   background-image: url("../images/beetle.svg"), url("../images/beetle.svg"), url("../images/waves.png");
-  padding-top: 2em;
+  padding-top: 1em;
   background-size: 60px auto, 60px auto;
   background-repeat: no-repeat, no-repeat, repeat;
   background-position: left, right;
   text-align: center;
   font-size: 2em;
+  color: rgb(90, 42, 42);
+  background-color: rgb(90, 42, 42);
