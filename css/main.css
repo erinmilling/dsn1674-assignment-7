@@ -44,3 +44,20 @@ nav ol{
 body{
   margin: 0;
 }
+.dirt{
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+div img{
+  width: 100%;
+}
+h2{
+  position: absolute;
+  top: 120px;
+  text-align: center;
+  color: #ffffff;
+}
+.ant {
+  width: 50%;
+}
