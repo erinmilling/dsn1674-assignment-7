@@ -23,59 +23,78 @@ h1{
 
 }
 nav{
+
+  display: block;
   text-align: center;
+  overflow: hidden;
 }
 nav a{
+  overflow: hidden;
   display: block;
-  list-style-type: none;
   padding: 0.5em;
   color: black;
-  background-color:rgb(90, 42, 42);
+  text-decoration: none;
+  /*background-color:rgb(90, 42, 42);*/
 
-  position: relative;
+  /*position: relative;*/
 }
 nav a:hover{
   background-color: black;
   border: 5px;
 }
 nav li{
+  height: 100%;
+  overflow:hidden;
   margin: 0;
   float: left;
   width: 25%;
   display: inline-block;
   font-size: .75em;
+  /*background-color:rgba(90, 42, 42, 0.5);*/
 
 }
 nav ol{
+  background-color: rgba(90, 42, 42, 0.5);
   text-decoration: none;
   text-align: center;
   padding: 0;
   margin: 0;
+  overflow: hidden;
 }
 body{
   margin: 0;
 
 }
 .dirt{
+  /*height: 70vw;*/
+  overflow: hidden;
   position: relative;
   width: 100%;
-  display: inline-block;
+  display: block;
+  padding: 0;
+  margin: 0;
 }
 div img{
   width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 p{
   position: relative;
   text-align: center;
   color: #ffffff;
-  padding: 3em 1em 1em 10em;
+  /*padding: 3em 1em 1em 10em;*/
   display: inline-block;
   bottom: 7em;
   margin: 0;
+  width: 100%
 }
 .ant {
-  width: 50%;
   display: inline-block;
+  width: 50%;
+  clear: both;
 }
 .antbtn{
   text-decoration: none;
@@ -93,9 +112,10 @@ p{
 
 }
 .stag {
+  display: inline-block;
   width: 50%;
   float: right;
-  display: inline-block;
+  display: inline;
 }
 .stagbtn{
   text-decoration: none;
@@ -112,8 +132,8 @@ p{
   font-size: 20px;
 }
 .dung {
-  width: 50%;
   display: inline-block;
+  width: 50%;
 }
 .dungbtn{
   text-decoration: none;
@@ -130,8 +150,8 @@ p{
   box-shadow: 8px 5px 10px black;
 }
 .tortoise {
+  display: block;
   width: 50%;
-  display: inline-block;
   float: right;
 }
 .tortbtn{
@@ -150,14 +170,11 @@ p{
 
 }
 footer{
-  padding: 2em;
-  background-color: #512200;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70px;
-  opacity: .5;
-
+  background-color: rgba(81,34,0,0.5);
+  text-align: center;
 }
 .bottombug{
-  color: black;
+  display: inline;
+  height: 3em;
+  opacity: 1;
 }
