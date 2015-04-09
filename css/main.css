@@ -54,10 +54,35 @@ div img{
 }
 h2{
   position: absolute;
-  top: 120px;
+  top: 160px;
   text-align: center;
   color: #ffffff;
+  padding: 3em;
+  display: inline-block;
 }
 .ant {
   width: 50%;
+  display: inline-block;
+}
+.antbtn{
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: -60px;
+}
+.stag {
+  width: 50%;
+  float: right;
+  display: inline-block;
+}
+.stagbtn{
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: -60px;
+  padding: 1em 1em;
+  border-radius: 8px;
+  background-color: green;
+  text-align: center;
+  left: 30px;
 }
