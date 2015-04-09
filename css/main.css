@@ -137,3 +137,13 @@ h2{
   font-size: 20px;
 
 }
+footer{
+  background-image: url("../images/beetle.svg");
+  padding: 2em;
+  background-color: #512200;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px;
+  opacity: .5;
+
+}
