@@ -32,14 +32,11 @@ nav a{
   overflow: hidden;
   display: block;
   padding: 0.5em;
-  color: black;
+  color: white;
   text-decoration: none;
-  /*background-color:rgb(90, 42, 42);*/
-
-  /*position: relative;*/
 }
 nav a:hover{
-  background-color: black;
+  background-color:rgb(90, 42, 42);
   border: 5px;
 }
 nav li{
@@ -50,7 +47,6 @@ nav li{
   width: 25%;
   display: inline-block;
   font-size: .75em;
-  /*background-color:rgba(90, 42, 42, 0.5);*/
 
 }
 nav ol{
@@ -66,7 +62,6 @@ body{
 
 }
 .dirt{
-  /*height: 70vw;*/
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -85,11 +80,11 @@ p{
   position: relative;
   text-align: center;
   color: #ffffff;
-  /*padding: 3em 1em 1em 10em;*/
   display: inline-block;
-  bottom: 7em;
+  bottom: 3em;
   margin: 0;
-  width: 100%
+  width: 100%;
+  font-size: 2em;
 }
 .ant {
   display: inline-block;
@@ -98,7 +93,7 @@ p{
 }
 .antbtn{
   text-decoration: none;
-  color: black;
+  color: white;
   position: relative;
   top: -60px;
   padding: .5em 1em;
@@ -115,11 +110,10 @@ p{
   display: inline-block;
   width: 50%;
   float: right;
-  display: inline;
 }
 .stagbtn{
   text-decoration: none;
-  color: black;
+  color: white;
   position: relative;
   top: -60px;
   padding: .5em 1em;
@@ -137,7 +131,7 @@ p{
 }
 .dungbtn{
   text-decoration: none;
-  color: black;
+  color: white;
   position: relative;
   top: -60px;
   padding: .5em 1em;
@@ -156,7 +150,7 @@ p{
 }
 .tortbtn{
   text-decoration: none;
-  color: black;
+  color: white;
   position: relative;
   top: -60px;
   padding: .5em 1em;
