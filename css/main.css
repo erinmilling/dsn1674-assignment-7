@@ -68,94 +68,93 @@ body{
   padding: 0;
   margin: 0;
 }
-div img{
+img{
   width: 100%;
   display: block;
-  margin: 0;
-  padding: 0;
 }
-p{
-  position: relative;
+.beetles{
+  position: absolute;
   text-align: center;
   color: #ffffff;
-  display: inline-block;
   bottom: 3em;
   margin: 0;
   width: 100%;
   font-size: 2em;
 }
 .ant {
-  display: inline-block;
+  float: left;
   width: 50%;
   clear: both;
+  position: relative;
 }
 .antbtn{
   text-decoration: none;
   color: white;
-  position: relative;
-  top: -60px;
+  position: absolute;
+  bottom: 20px;
   padding: .5em 1em;
   border-radius: 8px;
   background-color: green;
   text-align: center;
-  right: -50px;
+  left: calc(50% - 40px);
   background-image: linear-gradient(to bottom, #00ff02, #00af07);
   font-size: 20px;
   box-shadow: 8px 5px 10px black;
 
 }
 .stag {
-  display: inline-block;
   width: 50%;
   float: right;
+  position: relative;
 }
 .stagbtn{
   text-decoration: none;
   color: white;
-  position: relative;
-  top: -60px;
+  position: absolute;
+  bottom: 20px;
   padding: .5em 1em;
   border-radius: 8px;
   background-color: green;
   text-align: center;
-  left: 80px;
+  left: calc(50% - 40px);
   background-image: linear-gradient(to bottom, #00ff02, #00af07);
   box-shadow: 8px 5px 10px black;
   font-size: 20px;
 }
 .dung {
-  display: inline-block;
+  float: left;
   width: 50%;
+  position: relative;
 }
 .dungbtn{
   text-decoration: none;
   color: white;
-  position: relative;
-  top: -60px;
+  position: absolute;
+  bottom: 20px;
   padding: .5em 1em;
   border-radius: 8px;
   background-color: green;
   text-align: center;
-  right: -50px;
+  left: calc(50% - 40px);
   background-image: linear-gradient(to bottom, #00ff02, #00af07);
   font-size: 20px;
   box-shadow: 8px 5px 10px black;
 }
 .tortoise {
-  display: block;
   width: 50%;
   float: right;
+  position: relative;
 }
 .tortbtn{
   text-decoration: none;
   color: white;
-  position: relative;
-  top: -60px;
+  position: absolute;
+  bottom: 20px;
   padding: .5em 1em;
   border-radius: 8px;
   background-color: green;
   text-align: center;
-  left: 80px;
+  left: calc(50% - 40px);
   background-image: linear-gradient(to bottom, #00ff02, #00af07);
   box-shadow: 8px 5px 10px black;
   font-size: 20px;
